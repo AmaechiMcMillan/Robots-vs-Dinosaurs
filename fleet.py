@@ -7,4 +7,11 @@ class Fleet:
         self.create_fleet()
     
     def create_fleet(self):
+        robot1 = Robot('CyBorg')
+        robot2 = Robot('CyFi')
+        robot3 = Robot('CyClops')
+
+        self.robots.append(robot1)
+        self.robots.append(robot2)
+        self.robots.append(robot3)
         
