@@ -12,7 +12,8 @@ class Robot:
     def __init__(self, name, health): 
         self.name = name
         self.health = 100
-        self.weapon = Weapon('Kino', 25)
+        self.weapon = Weapon('Sword', 25)
 
     def attack(self, dinosaur):
         dinosaur.health = dinosaur.health - self.weapon.attack_power
+        print(f"Good strike! Dinosaur health is now {dinosaur.health}")
