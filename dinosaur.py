@@ -6,3 +6,4 @@ class Dinosaur:
 
     def attack(self, robot):
         robot.health = robot.health - self.attack_power
+        print(f"Good bite! Robot health is now {robot.health}")
